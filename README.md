@@ -1,29 +1,12 @@
-# text-field-test
+# vuetify-text-field
+Vuetify text field
 
-## Project setup
-```
-npm install
-```
+In IE11 text field value is not completely reset after the browser page refresh (reproducible every other time). It disappears on input events. See how it overlays with the label. 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Link to reproduce:
+https://vuetify-text-field.azurewebsites.net/
 
-### Compiles and minifies for production
-```
-npm run build
-```
+![BUG](/text-field-refresh-ie.PNG?raw=true "Title")
 
-### Run your tests
-```
-npm run test
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Any ideas? Is it a known bug? Thank you
